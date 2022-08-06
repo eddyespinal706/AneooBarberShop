@@ -20,8 +20,8 @@
     }
 
     .container img{
-        height: 70px;
-        width: 70px;
+        height: 100px;
+        width: 1000px;
     }
 
     .client1 img, .client2 img, .client3 img{
