@@ -169,4 +169,6 @@ body{
 
 .map{
     border-radius: 5px;
+    height: 350px;
+    width: 400px;
 }
