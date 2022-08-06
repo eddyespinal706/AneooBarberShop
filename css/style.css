@@ -20,13 +20,14 @@
     }
 
     .container img{
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
     }
 
     .client1, .client2, .client3{
         height: 100px;
         width: 100px;
+        
     }
 
     .about{
@@ -37,14 +38,14 @@
     .owner_pic{
         border: 3px solid goldenrod;
         background-color: black;
-        height: 200px;
-        width: 150px;
+        height: 150px;
+        width: 100px;
         text-align: center;
     }
 
     .video-media{
-        height: 200px;
-        width: 150px;
+        height: 150px;
+        width: 100px;
         background-color: black;
     }
 
