@@ -5,6 +5,13 @@
         font-size: 0.5em;
     }
 
+    .navigation ul{
+        flex-direction: column;
+        justify-content: center;
+        display:flex;
+        list-style-type: none;
+    }
+
     .container{
         flex-direction: column;
         justify-content: center;
@@ -13,8 +20,8 @@
     }
 
     .container img{
-        height: auto;
-        width: auto;
+        height: 100px;
+        width: 100px;
     }
 
 
