@@ -6,7 +6,7 @@
     }
 
     .container{
-        display: block;
+        flex-direction: column;
         justify-content: center;
         height: auto;
         width: auto;
