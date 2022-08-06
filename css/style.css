@@ -1,3 +1,9 @@
+@media screen and (max-width: 480px){
+    body{
+        display: flexbox;
+    }
+}
+
 body{
     background: url("../img/icon.png");
     background-color: black;
