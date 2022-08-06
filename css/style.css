@@ -21,12 +21,12 @@
 
     .container img{
         height: 100px;
-        width: 1000px;
+        width: 100%;
     }
 
     .client1 img, .client2 img, .client3 img{
         height: 100px;
-        width: 100px;
+        width: 100%;
         
     }
 
