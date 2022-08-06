@@ -4,6 +4,17 @@
         width: 480px;
     }
 
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    .container img{
+        height: auto;
+        width: auto;
+    }
+    
+
 }
 
 body{
