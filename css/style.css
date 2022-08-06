@@ -1,4 +1,5 @@
 body{
+    background: url("../img/icon.png");
     background-color: black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
@@ -17,36 +18,133 @@ body{
 }
 
 .heading{
-    color: blue;
+    color: goldenrod;
     text-shadow: red 10px 10px 10px;
 }
 
 .navigation ul{
-    display: flex;
+    justify-content: center;
+    display:flex;
     list-style-type: none;
 }
 
-.navigation li{
+.navigation__link a{
     text-align: center;
     background-color: darkred;
     color: white;
+    font-weight: bolder;
+    text-decoration: none;
     padding: 10px;
     margin: 10px;
     border-radius: 100px;
     flex: 1;
 }
 
-.navigation li:hover{
+.navigation__link a:hover{
     background-color: white;
     color: blue;
 }
 
-.navigation a{
-    text-decoration: none;
+
+.quote{
+    color: goldenrod;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    text-shadow: black 5px 5px 3px;
 }
-/*
-.navigation a:hover{
-    color: blue;
-    text-decoration: none;
+
+.container{
+    display: flex;
+    justify-content: center;
 }
-*/
+
+.container img{
+    height: 300px;
+    width: 300px;
+}
+
+.client1{
+    background-color: black;
+    border: 5px solid blue;
+}
+
+.client2{
+    background-color: black;
+    border: 5px solid red;
+}
+
+.client3{
+    background-color: black;
+    border: 5px solid goldenrod;
+}
+
+.about{
+    display: flex;
+}
+
+.owner_pic{
+    border: 3px solid goldenrod;
+    background-color: black;
+    height: 400px;
+    width: 350px;
+    margin-left: 30px;
+}
+
+.info{
+    background-color: black;
+    padding: 10px;
+}
+
+.info strong{
+    font-style: italic;
+    font-weight: bolder;
+    color: goldenrod;
+}
+
+.video-media{
+    height: 400px;
+    width: 350px;
+}
+
+.icons{
+    height: 40px;
+    width: 40px;
+    background-color: none;
+}
+
+.contacts{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.contacts ul{
+    text-align: center;
+    list-style-type: none;
+}
+
+.networks{
+    display: flex;
+    justify-content: center;
+}
+
+.networks li, li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.networks a:hover{
+    color: goldenrod;
+}
+
+.location{
+    text-align: center;
+}
+
+.map{
+    border-radius: 5px;
+}
