@@ -1,7 +1,8 @@
 @media screen and (max-width: 480px){
     body{
         box-sizing: border-box;
-        display: flexbox;
+        width: 100%;
+        display: flex;
     }
 }
 
