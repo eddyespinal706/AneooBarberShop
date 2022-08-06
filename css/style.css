@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+.intro{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.logo{
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 1000px;
+}
+
+.heading{
+    color: blue;
+    text-shadow: red 10px 10px 10px;
+}
+
+.navigation ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.navigation li{
+    text-align: center;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100px;
+    flex: 1;
+}
+
+.navigation li:hover{
+    background-color: white;
+    color: blue;
+}
+
+.navigation a{
+    text-decoration: none;
+}
+/*
+.navigation a:hover{
+    color: blue;
+    text-decoration: none;
+}
+*/
