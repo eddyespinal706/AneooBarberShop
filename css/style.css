@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px){
+@media screen and (max-width: 600px){
     body{
         box-sizing: border-box;
         width: 480px;
@@ -12,11 +12,6 @@
         justify-content: center;
         display:flex;
         list-style-type: none;
-    }
-
-    .container{
-        flex-direction: column;
-        justify-content: center;
     }
 
     .container img{
@@ -111,6 +106,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .container img{
